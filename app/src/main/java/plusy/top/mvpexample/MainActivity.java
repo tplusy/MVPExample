@@ -2,9 +2,8 @@ package plusy.top.mvpexample;
 
 import android.annotation.SuppressLint;
 import android.net.Uri;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.util.Log;
+import android.support.v7.app.AppCompatActivity;
 import android.widget.TextView;
 import android.widget.Toast;
 import plusy.top.mvpexample.presenter.DownloadPresenter;

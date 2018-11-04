@@ -1,10 +1,6 @@
 package plusy.top.mvpexample.presenter;
 
 import android.net.Uri;
-import io.reactivex.Observable;
-import io.reactivex.ObservableEmitter;
-import io.reactivex.ObservableOnSubscribe;
-import io.reactivex.Observer;
 import plusy.top.mvpexample.model.DownloadModel;
 import plusy.top.mvpexample.model.IDownloadModel;
 import plusy.top.mvpexample.view.IDisplayView;
@@ -21,7 +17,7 @@ public class DownloadPresenter {
 
     public DownloadPresenter(IDisplayView view)
     {
-        displayView = new WeakReference<IDisplayView>(view);
+        displayView = new WeakReference<>(view);
         downloadModel = new DownloadModel();
     }
 
